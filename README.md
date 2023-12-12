@@ -15,4 +15,4 @@ For DB creation you can use this script:
 
 When conducting the tests, please be aware that I have used specific IDs that are present in my database. Make sure to take this into account during the testing process.      
 
-In this code I assume that complaint is made by user, so we have correct userID always (and we will get the data from user url).      
+In this code I assume that complaint is made by user, so we have correct userID always (and we will get the data from user url) so I didn't handle null situation in this case (not like in purchase, where null is possible).      
