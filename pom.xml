@@ -67,6 +67,11 @@
 			<artifactId>webjars-locator-core</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>org.asynchttpclient</groupId>
+			<artifactId>async-http-client</artifactId>
+			<version>2.12.3</version> <!-- Ensure this is the latest version or a compatible one -->
+		</dependency>
+		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>sockjs-client</artifactId>
 			<version>1.0.2</version>
@@ -93,13 +98,13 @@
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-api</artifactId>
-			<version>${junit-jupiter.version}</version>
+			<version>5.8.2</version> <!-- Ensure this is the latest or compatible version -->
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-junit-jupiter</artifactId>
-			<version>3.11.2</version>
+			<version>3.12.4</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
